@@ -16,8 +16,9 @@ const Navbar = () => {
                             <li className="nav__item"><a href='#team' className="nav__link ">Team</a></li>
                             <li className="nav__item"><a href='/login' className="nav__link ">Login</a></li>
                         </ul>
-                        <Toggle/>
-                    </div>     
+                        <Toggle />
+                        
+                    </div>
                 </nav>
 
             </header>

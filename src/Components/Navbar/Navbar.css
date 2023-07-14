@@ -31,8 +31,14 @@
   .nav__menu {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    margin: auto;
   }
+
+  .nav__toggle {
+    position: absolute;
+    right: 0;
+  }
+
   .nav__list {
     list-style: none;
     display: flex;

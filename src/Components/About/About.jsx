@@ -29,8 +29,8 @@ const About = () => {
           <div className="home__data"
             data-aos="fade-left"
             data-aos-duration="500">
-            <h1 className="home__title">Introducting Connectify</h1>
-            <p className="home__description"> The ultimate team-building and collaboration platform designed to empower individuals from marginalized genders in the tech community.  From ideation to execution, Connectify streamlines the team-building process, ensuring that no one is left behind and that every voice is heard.
+            <h1 className="home__title">Introducting TravelSafe</h1>
+            <p className="home__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
  </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ const About = () => {
             data-aos="fade-left"
             data-aos-duration="500">
             <h2 className="section-title-center"> How it Helps?</h2>
-            <p className="share__description"> With Connectify, you can seamlessly connect with like-minded individuals, build diverse teams, and amplify your impact in hackathons.</p>
+            <p className="share__description"> With TravelSafe, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
           </div>
         </div>
       </section>
@@ -57,14 +57,14 @@ const About = () => {
         <div className="decoration__container bd-grid">
           <div className="decoration__data">
             <img src={""} alt="" className="decoration__img" id="render" />
-            <h3 className="decoration__title">Select TeamMates</h3>
+            <h3 className="decoration__title">Feature 1</h3>
             <p>Swipe left or right to show interest in potential teammates, effortlessly forming alliances that foster creativity, innovation, & inclusivity. </p>
             <div className="button"><Link to="/FindMate" className="button-link" style={{ color: 'white' }}>Explore</Link>
             </div>
           </div>
           <div className="decoration__data">
             <img src={""} alt="" className="decoration__img" id="render" />
-            <h3 className="decoration__title">Design Portfolio</h3>
+            <h3 className="decoration__title">Feature 2</h3>
             <p>Showcase your unique skills & experiences on your personalized portfolio page, highlighting your past projects, social media links, & involvement as a speaker, organizer, or volunteer in community events.
 </p>
             <div className="button"><Link to="./" className="button-link" style={{ color: 'white' }}>Explore</Link>
@@ -72,7 +72,7 @@ const About = () => {
           </div>
           <div className="decoration__data">
             <img src={""} alt="" className="decoration__img" id="render" />
-            <h3 className="decoration__title">User DashBoard</h3>
+            <h3 className="decoration__title">Feature 3</h3>
             <p>Stay organized and focused with the user dashboard, where you can manage your hackathons in a calendar, add teammates from your matches, and track your achievements along the way</p>
             <div className="button"><Link to="/dashboard" className="button-link" style={{ color: 'white' }}>Explore</Link></div>
           </div>
