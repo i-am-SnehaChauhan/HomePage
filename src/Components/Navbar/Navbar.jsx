@@ -8,16 +8,16 @@ const Navbar = () => {
         <>
             <header className="l-header">
                 <nav className="nav bd-container">
-                    <a href="#home" className="nav__logo">Connectify</a>
+                    <a href="#home" className="nav__logo">TravelSafe</a>
                     <div className='nav__menu' id="nav-menu">
                         <ul className="nav__list" >
                             <li className="nav__item"><a href='#home' className="nav__link ">About</a></li>
                             <li className="nav__item"><a href='#features' className="nav__link ">Features</a></li>
                             <li className="nav__item"><a href='#team' className="nav__link ">Team</a></li>
-                            <li className="nav__item"><Link to='/dashboard' className="nav__link">User DashBoard</Link></li>
+                            <li className="nav__item"><a href='/login' className="nav__link ">Login</a></li>
                         </ul>
-                    </div>
-                    <Toggle/>
+                        <Toggle/>
+                    </div>     
                 </nav>
 
             </header>
